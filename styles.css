@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #fff;
+}
+
+:root{
+    --text-color: #fff;
+    --bg-color: #131415;
+    --decoration-color: crimson;
+    --box-shadow: ;
+}
+
+main{
+    width: 75vw;
+    max-width: 600px;
+    margin: 3rem auto;
+    padding: 2rem;
+    display: flex;
+    flex-flow: wrap column;
+    gap: 3rem;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+#palindrome-detector{
+    width: 90%;
+    padding-top: 1.5rem;
+    border: 1px solid black;
+    border-radius: 1.8rem;
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: space-evenly;
+    gap: 1.3rem;
+}
+
+#text-input{
+    
+}
+
+#check-btn{
+    padding: .5rem;
+}
+
+#palindrome-description{
+    padding: 2rem .5rem;
+    font-size: 1.2rem;
+    border: 1px solid black;
+    border-radius: 1.8rem;
+}
